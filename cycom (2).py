@@ -1,9 +1,6 @@
-c = 30.5
-
-f =(c*9/5)+23
-k = c + 273.15
-r = c * 4/5
-
-print("fahrenheit:",f)
-print("kelvin:",k)
-print("reamur:",r)
+A = 35
+B = 4
+print("penjumlahan:", A + B )
+print("pengurangan:", A - B)
+print("perkalian:", A * B)
+print("modulus:", A % B)
