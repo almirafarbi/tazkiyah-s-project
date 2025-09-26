@@ -1,9 +1,8 @@
-c = 30,5
-
-f =(c * 9/5) + 23
-k = c + 273.5
+c = 30.5
+f = (c * 9/5) + 32
+k = c + 273.15
 r = c * 4/5
 
-print("fahrenheit:",f)
-print("kelvin:",k)
-print('reamur:',r)
+print("Fahrenheit:", f)
+print("Kelvin:", k)
+print("Reamur:", r)
