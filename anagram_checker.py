@@ -22,7 +22,3 @@ t1 = sorted(teks1)
 t2 = sorted(teks2)
 check_anagram = t1 == t2 
 print(check_anagram)
-
-
-
-
