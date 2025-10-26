@@ -1,0 +1,10 @@
+
+ body {
+    font-family: "Arial", sans-serif; /* Jenis font */
+    color: white; /* Warna teks utama */
+}
+
+h1 {
+    color: yellow;
+    border-bottom: 2px dashed #4295e1;
+}
