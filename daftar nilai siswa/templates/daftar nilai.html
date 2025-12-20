@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Daftar Nilai Siswa</title>
+</head>
+
+<body>
+  <h1>Daftar Nilai Siswa</h1>
+  <ul>
+    {% for student in students %}
+    <li>
+      {{student.name}} : {{student.score}} -  {% if student.score >= 75 %} Lulus {% else %} tidak lulus {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</body>
+</html>
